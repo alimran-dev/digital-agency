@@ -93,7 +93,7 @@ nav ul {
 .service {
     color: #BECFD0;
     height: 100vh;
-    background-image: url('../assets/image/footer-bg.png'), linear-gradient(rgb(46, 45, 45), rgb(36, 36, 36));
+    background-image: url('../assets/image/footer-bg.png'), linear-gradient(#2e2d2d, #242424);
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -255,4 +255,50 @@ nav ul {
 .card-description{
     font-size: 18px;
     padding: 5px 12px 20px 10px;
+}
+/* main ends here  */
+/* footer related styles here  */
+footer{
+    height: 60vh;
+    background-image: url('../assets/image/footer-bg.png'),linear-gradient(90deg,#000000d2,#000000e1);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    padding-bottom: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 150px;
+}
+.footer h2{
+    font-size: 25px;
+    margin: 35px 0px;
+}
+.footer li{
+    list-style: none;
+    padding: 5px 0px;
+}
+.agency-details{
+    width: 20%;
+}
+.agency-details img{
+    padding-bottom: 10px;
+}
+.contact-info p, .contact-info address, .contact-info a{
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: white;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+footer > p{
+    text-align: center;
+    margin: 20px 0;
 }
