@@ -1,48 +1,56 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 /* common styles here  */
-.btn{
+.btn {
     font-size: 18px;
     padding: 12px;
     border: 0px;
     border-radius: 4px;
 }
-.title{
+
+.title {
     font-size: 70px;
     font-weight: bold;
 }
+
 /* nav related styles  */
-nav{
+nav {
     background-color: #D5D2D2;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 12px;
 }
-.nav-logo{
+
+.nav-logo {
     display: flex;
     align-items: center;
 }
-nav h2{
+
+nav h2 {
     color: #6EFCF3;
     font-size: 18px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-.menu-items{
+
+.menu-items {
     list-style: none;
     margin-left: 20px;
     font-size: 20px;
 
 }
+
 /* header banner related styles  */
-.banner{
+.banner {
     height: 100vh;
-    background-image: url('../assets/image/background.jpg'),linear-gradient(rgb(77, 76, 76),rgb(61, 61, 61));
+    background-image: url('../assets/image/background.jpg'), linear-gradient(rgb(77, 76, 76), rgb(61, 61, 61));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,11 +58,13 @@ nav ul{
     display: flex;
     align-items: center;
 }
-.banner-container{
+
+.banner-container {
     text-align: center;
     margin: auto;
 }
-.banner-description{
+
+.banner-description {
     font-size: 22px;
     color: white;
     max-width: 50%;
@@ -62,16 +72,105 @@ nav ul{
     margin: auto;
     padding: 15px;
 }
-.banner-title{
+
+.banner-title {
     color: white;
 
 }
-.red{
+
+.red {
     color: #F52C2C;
 }
-.bg-btn{
+
+.bg-btn {
     background-color: #F52C2C;
     color: white;
     margin-right: 15px;
 }
+
 /* main starts here  */
+/* services section starts here  */
+.service {
+    color: #BECFD0;
+    height: 100vh;
+    background-image: url('../assets/image/footer-bg.png'), linear-gradient(rgb(46, 45, 45), rgb(36, 36, 36));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.service-btn {
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.service-title {
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+.service-description {
+    max-width: 50%;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.services-column-one ol{
+    padding-left: 12px;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+.profile-container button {
+    color: #F52C2C;
+    font-size: 16px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding-right: 70px;
+    justify-content: space-around;
+    border-right: 2px solid #F52C2C;
+}
+
+.profile img {
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.box img {
+    width: 70px;
+    display: block;
+    margin: 25px auto;
+}
+
+.box {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+}
+
+.box h3 {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+.first-two-boxes,
+.second-two-boxes {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 7px;
+}
