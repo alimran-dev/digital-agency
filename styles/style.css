@@ -2,3 +2,76 @@
     margin: 0px;
     padding: 0px;
 }
+/* common styles here  */
+.btn{
+    font-size: 18px;
+    padding: 12px;
+    border: 0px;
+    border-radius: 4px;
+}
+.title{
+    font-size: 70px;
+    font-weight: bold;
+}
+/* nav related styles  */
+nav{
+    background-color: #D5D2D2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+nav h2{
+    color: #6EFCF3;
+    font-size: 18px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.menu-items{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+/* header banner related styles  */
+.banner{
+    height: 100vh;
+    background-image: url('../assets/image/background.jpg'),linear-gradient(rgb(77, 76, 76),rgb(61, 61, 61));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.banner-container{
+    text-align: center;
+    margin: auto;
+}
+.banner-description{
+    font-size: 22px;
+    color: white;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+.banner-title{
+    color: white;
+
+}
+.red{
+    color: #F52C2C;
+}
+.bg-btn{
+    background-color: #F52C2C;
+    color: white;
+    margin-right: 15px;
+}
+/* main starts here  */
