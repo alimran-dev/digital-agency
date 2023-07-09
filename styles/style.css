@@ -218,3 +218,41 @@ nav ul {
     color: white;
     font-size: 15px;
 }
+/* blog section related styles here  */
+.blog-header{
+    margin: 40px;
+}
+.blog-title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.blog-description{
+    font-size: 21px;
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.blog-cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.card{
+    height: 410px;
+    width: 350px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.card-title{
+    font-size: 20px;
+    padding: 15px 12px 5px 10px;
+}
+.card-description{
+    font-size: 18px;
+    padding: 5px 12px 20px 10px;
+}
